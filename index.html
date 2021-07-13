@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Password Manager</title>
-</head>
-<body>
-    <div class="secured-card">
-        <p>{Title}</p>
-        <span>{Username}</span>
-        <p>{Desc}</p>
+  </head>
+  <body>
+    <div class="upper-container">
+      <button class="btn first"><i class="fa fa-plus"></i> Add Password</button>
+      <div class="form-group has-search" s>
+        <span class="fa fa-search form-control-feedback"></span>
+        <input type="text" class="form-control" placeholder="Search my Vault" />
+      </div>
     </div>
-</body>
+    <div class="total-container">
+      <div class="header-items">
+        <div class="header-elements">
+          <h3>All items</h3>
+          <div class="custom-select-container">
+            <select class="custom-select">
+              <option value="0">Sort By</option>
+            </select>
+          </div>
+        </div>
+
+        <hr />
+      </div>
+
+      <section class="centered">
+        <div class="secured-card">
+          <div style="display: flex; justify-content: center">
+            <img
+              src="https://klazify.s3.amazonaws.com/293720299162612634860ecb80c7815b5.85372558.png"
+              alt=""
+              srcset=""
+              style="margin: 0 auto"
+            />
+          </div>
+          <span>parkerlabs.com</span><br />
+          <span style="opacity: 0.3">jaydon lynch</span>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
